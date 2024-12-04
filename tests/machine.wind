@@ -1,0 +1,14 @@
+{
+	"layers": [
+
+	],
+	"defaultFeedRate": 9000,
+	"mandrelParameters": {
+		"windLength": 1000,
+		"diameter": 76.2
+	},
+	"towParameters": {
+		"width": 7,
+		"thickness": 0.5
+	}
+}

@@ -19,7 +19,7 @@ class Cyclone:
 	def run(self):
 		if self.args.verbose:
 			self.verbose = True
-		if self.args.input & self.args.output:
+		if self.args.plan & (type(self.args.input) != None) & (type(self.args.output) != None):
 			planner = Planner(self.args.input, self.args.output)
 			planner.run()
 

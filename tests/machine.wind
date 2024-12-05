@@ -1,7 +1,13 @@
 {
-	"layers": [
-
-	],
+	"layers": [{
+		"windType": "hoop",
+		"terminal": false,
+		"lockDegrees": 360
+	}, {
+		"windType": "hoop",
+		"terminal": true,
+		"lockDegrees": 360
+	}],
 	"defaultFeedRate": 9000,
 	"mandrelParameters": {
 		"windLength": 1000,
